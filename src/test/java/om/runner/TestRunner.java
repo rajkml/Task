@@ -9,7 +9,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 		features="src/test/java/om/feature",
 		glue="om.stepdefiniton",
-		tags= {"@f1,@f2"}
+		tags= {"@flipkart"}
 		)
 public class TestRunner {
 
